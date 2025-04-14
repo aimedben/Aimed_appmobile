@@ -1,0 +1,143 @@
+body {
+    position: relative;
+    background: linear-gradient(to right,#211C84,#4D55CC);
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+
+
+@keyframes leftcom {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes transpar {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.titre{
+    position: relative; 
+    animation: transpar 1s ease-out;
+    text-align: center;
+    background-color: rgb(173, 182, 231);
+    border-radius: 30px;
+    padding: 30px;
+    margin: 0px 45px;
+    box-shadow: 0 10px 10px 0px #000000;
+}
+
+p{
+    font-family: serif;
+    font-weight: bold ;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    margin: 20px ;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+.card {
+    width: 15em;
+    height: 36em;
+    margin: 50px 0px;
+}
+
+
+.card-img-top{
+    filter: blur(0);
+    height: 18em;
+    width: auto;
+}
+
+
+.card-body{
+    height: 3em;
+    width: auto;
+}
+
+.card-text{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    color: rgb(40, 5, 72);
+    opacity: 0;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+.card-text {
+    max-height: 0;
+    color: black;
+    font-size: medium;
+    margin: 2px;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+}
+
+#toggle {
+    display: none;
+}
+
+/* Quand coché, afficher le texte */
+#toggle:checked ~ .card-text {
+    max-height: 200px; /* Ajuste la hauteur pour que tout le texte s'affiche */
+    opacity: 1;
+}
+
+#toggle:checked ~ .card {
+    height: 50px; /* Ajuste la hauteur pour que tout le texte s'affiche */
+    opacity: 1;
+}
+
+/* Styliser les boutons "Voir plus" et "Voir moins" */
+.see-more, .see-less {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/* Cacher "Voir moins" par défaut */
+#toggle:not(:checked) ~ .see-less {
+    display: none;
+}
+
+/* Cacher "Voir plus" quand le texte est affiché */
+#toggle:checked + .see-more {
+    display: none;
+}
+
+  
+
+
+
+
+.card:hover .card-img-top {
+    filter: blur(5px);
+}
+
+/* Garder nette l'image de la carte survolée */
+.card:hover .card-img-top {
+    filter: blur(0);
+}

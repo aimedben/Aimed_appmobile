@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acteurs</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <h1 class="text-center text-white my-4">« Espace Acteurs »</h1>
+
+
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Accueil</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="utilisateur.html">Utilisateurs</a></li>
+          <li class="nav-item"><a class="nav-link active" href="livre.html">Livres</a></li>
+          <li class="nav-item"><a class="nav-link active" href="acteur.html">Acteurs</a></li>
+          <li class="nav-item"><a class="nav-link active">Mon compte</a></li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Rechercher</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <p>Vous trouverez ici tout les acteurs qui ont écri les livres disponibles sur notre site web </p>
+
+  <div class="titre text-center mb-4">
+      <h1>Nos Acteurs Principaux</h1>
+  </div>
+
+  <div id="acteurs" class="contenu">
+    <div class="d-flex justify-content-around flex-wrap gap-3 py-5" id="acteurs-container">
+    <!-- Carte 1 -->
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2 mb-4">
+      <div class="card" style="width: 18rem;">
+        <img src="dostowesky_act.jpg" class="card-img-top" alt="Dostowesky">
+        <div class="card-body">
+          <h5 class="card-title">Dostowesky (3 Livres)</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Pays d'origine : Russie</li>
+          <li class="list-group-item">Année de naissance : 1821</li>
+          <li class="list-group-item">Année de décès : 1881</li>
+          <li class="list-group-item">
+            <h6>Livres :</h6>
+            <ul>
+              <li><a href="livre.html">Crime et Châtiment</a></li>
+              <li><a href="livre.html">L'Idiot</a></li>
+              <li><a href="livre.html">Les Frères Karamazov</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Carte 2 -->
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2 mb-4">
+      <div class="card" style="width: 18rem;">
+        <img src="robertlaffont_act.jpg" class="card-img-top" alt="Robert Laffont">
+        <div class="card-body">
+          <h5 class="card-title">Robert Laffont (2 Livres)</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Pays d'origine : France</li>
+          <li class="list-group-item">Année de naissance : 1916</li>
+          <li class="list-group-item">Année de décès : 2010</li>
+          <li class="list-group-item">
+            <h6>Livres :</h6>
+            <ul>
+              <li><a href="livre.html?">Le Monde comme il va</a></li>
+              <li><a href="livres.html?auteur=Robert%20Laffont">La Vie d'un éditeur</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Carte 3 -->
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2 mb-4">
+      <div class="card" style="width: 18rem;">
+        <img src="bernardminier_act.png" class="card-img-top" alt="Bernard Minier">
+        <div class="card-body">
+          <h5 class="card-title">Bernard Minier (4 Livres)</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Pays d'origine : France</li>
+          <li class="list-group-item">Année de naissance : 1960</li>
+          <li class="list-group-item">Année de décès : -</li>
+          <li class="list-group-item">
+            <h6>Livres :</h6>
+            <ul>
+              <li><a href="livres.html?auteur=Bernard%20Minier">Glacé</a></li>
+              <li><a href="livres.html?auteur=Bernard%20Minier">Le Cercle</a></li>
+              <li><a href="livres.html?auteur=Bernard%20Minier">N'éteins pas la lumière</a></li>
+              <li><a href="livres.html?auteur=Bernard%20Minier">Soeurs</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Carte 4 -->
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2 mb-4">
+      <div class="card" style="width: 18rem;">
+
+        <img src="jkRowl_act.jpg" class="card-img-top" alt="J.K Rowling">
+        <div class="card-body">
+          <h5 class="card-title" style="object-fit: cover;">J.K Rowling (3 Livres)</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Pays d'origine : Royaume-Uni</li>
+          <li class="list-group-item">Année de naissance : 1965</li>
+          <li class="list-group-item">Année de décès : -</li>
+          <li class="list-group-item">
+            <h6>Livres :</h6>
+            <ul>
+              <li><a href="livres.html?auteur=J.K%20Rowling&livre=Harry%20Potter%201">Harry Potter 1</a></li>
+              <li><a href="livres.html?auteur=J.K%20Rowling&livre=Harry%20Potter%202">Harry Potter 2</a></li>
+              <li><a href="livres.html?auteur=J.K%20Rowling&livre=Harry%20Potter%203">Harry Potter 3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  
+
+  
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+  <script src="javascript.js"></script>
+
+
+</body>
+</html>

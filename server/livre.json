@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Harry Potter à l'école des sorciers",
+    "author": "J.K. Rowling",
+    "publisher": "Gallimard Jeunesse",
+    "year": 1998,
+    "description": "Un jeune orphelin découvre qu'il est un sorcier et rejoint l'école de Poudlard.",
+    "image": "Harry_Potter.jpg",
+    "proposed_by": "John Doe",
+    "links": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Harry_Potter_à_l%27école_des_sorciers",
+        "text": "Wikipédia"
+      },
+      {
+        "url": "https://www.gallimard-jeunesse.fr/",
+        "text": "Éditeur"
+      }
+    ]
+  },
+    {
+      "title": "Le Petit Prince",
+      "image": "La_Vallee.jpg",
+      "description": "\"Le Petit Prince\" est une œuvre poétique et philosophique écrite par Antoine de Saint-Exupéry...",
+      "author": "Antoine de Saint-Exupéry",
+      "publisher": "Gallimard",
+      "year": 1943,
+      "proposed_by": "Marie Curie",
+      "links": [
+        { "text": "Wikipédia", "url": "https://fr.wikipedia.org/wiki/Console_Wars......" },
+        { "text": "Acheter", "url": "#" }
+      ]
+    },
+    {
+      "title": "1984",
+      "image": "La_Vallee.jpg",
+      "description": "\"1984\" est un roman dystopique de George Orwell, publié en 1949...",
+      "author": "George Orwell",
+      "publisher": "Secker & Warburg",
+      "year": 1949,
+      "proposed_by": "Albert Einstein",
+      "links": [
+        { "text": "Wikipédia", "url": "https://fr.wikipedia.org/wiki/Console_Wars" },
+        { "text": "Détails", "url": "#" }
+      ]
+    },
+    {
+      "title": "Blood, Sweat, and Pixels",
+      "author": "Jason Schreier",
+      "publisher": "Harper Paperbacks",
+      "year": 2017,
+      "description": "Un regard fascinant sur les coulisses du développement de jeux vidéo à travers plusieurs projets célèbres.",
+      "image": "Soeur.jpg",
+      "proposed_by": "Alice Gamer",
+      "links": [
+        {
+          "url": "https://fr.wikipedia.org/wiki/Blood,_Sweat,_and_Pixels",
+          "text": "Wikipédia"
+        },
+        {
+          "url": "https://www.harpercollins.com/",
+          "text": "Éditeur"
+        }
+      ]
+    },
+    {
+      "title": "Console Wars",
+      "author": "Blake J. Harris",
+      "publisher": "Dey Street Books",
+      "year": 2014,
+      "description": "L'histoire de la rivalité entre Sega et Nintendo dans les années 90.",
+      "image": "Games.jpg",
+      "proposed_by": "Bob Retro",
+      "links": [
+        {
+          "url": "https://fr.wikipedia.org/wiki/Console_Wars",
+          "text": "Wikipédia"
+        },
+        {
+          "url": "https://www.deystreetbooks.com/",
+          "text": "Éditeur"
+        }
+      ]
+    },
+    {
+      "title": "The Art of Game Design: A Book of Lenses",
+      "author": "Jesse Schell",
+      "publisher": "CRC Press",
+      "year": 2008,
+      "description": "Un guide incontournable pour les concepteurs de jeux, offrant des perspectives uniques sur le game design.",
+      "image": "https://example.com/art-of-game-design.jpg",
+      "proposed_by": "Charlie Dev",
+      "links": [
+        {
+          "url": "https://fr.wikipedia.org/wiki/The_Art_of_Game_Design",
+          "text": "Wikipédia"
+        },
+        {
+          "url": "https://www.crcpress.com/",
+          "text": "Éditeur"
+        }
+      ]
+    },
+    {
+      "title": "Console Wars",
+      "author": "dostowesky",
+      "publisher": "Dey Street Books",
+      "year": 2014,
+      "description": "L'histoire de la rivalité entre Sega et Nintendo dans les années 90.",
+      "image": "dostojewskij.jpg",
+      "proposed_by": "Bob Retro",
+      "links": [
+        {
+          "url": "https://fr.wikipedia.org/wiki/Console_Wars",
+          "text": "Wikipédia"
+        },
+        {
+          "url": "https://www.deystreetbooks.com/",
+          "text": "Éditeur"
+        }
+      ]
+    }
+]

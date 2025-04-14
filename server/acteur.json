@@ -1,0 +1,15 @@
+[
+    {
+      "name": "Fiodor Dostoïevski",
+      "image": "dostowesky_act.jpg",
+      "country": "Russie",
+      "birth_year": 1821,
+      "death_year": 1881,
+      "books": [
+        { "title": "Crime et Châtiment", "url": "livre.html" },
+        { "title": "L'Idiot", "url": "livre.html" },
+        { "title": "Les Frères Karamazov", "url": "livre.html" }
+      ]
+    }
+  ]
+  
